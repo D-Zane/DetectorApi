@@ -52,6 +52,11 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
+Для сбора статики:
+```bash
+python manage.py collectstatic --noinput
+```
+
 Для проверки тестов воспользуемся параметром test и qa у manage.py:
 
 ```bash
